@@ -1,0 +1,42 @@
+
+.stApp {
+    background-color: #F5F8FC;
+    color: #1E293B;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E5EAF2;
+}
+
+[data-testid="stSidebar"] * {
+    color: #334155 !important;
+}
+
+h1, h2, h3, h4, p, label,
+.stMarkdown, [data-testid="stWidgetLabel"] {
+    color: #1E293B !important;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.metric-card {
+    background: #FFFFFF;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #E5EAF2;
+}
+
+.metric-label {
+    color: #64748B !important;
+    font-size: 14px;
+}
+
+.metric-value {
+    color: #123B65 !important;
+    font-size: 28px;
+    font-weight: 700;
+}
